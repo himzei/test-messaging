@@ -1,18 +1,33 @@
 {
-  "name": "my super app",
+  "name": "Your App Name",
+  "short_name": "AppShortName",
+  "description": "Your App Description",
   "start_url": "/",
-  "id": "super_app",
   "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "/logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "endpoint": "https://fcm.googleapis.com/fcm/send/cYFa5ZScF9c:APA91bE4Y1gk7wQ3B3Lh0DUugzw2Lv1Y_xUtxUX355iFb4_W07IYy-qyP-hRnADJW6TWvsxshRW52NLHfV7N3_lp145UIEtTlWPeMJg-23qdvzUYSZ_B6Ie5XEoMrgio6rS7tk9j_02u",
-  "keys": {
-    "p256dh": "BP3oaxghkJL7bIwz51j2JM1Cm7CNutjSB8dF0ORg2f15rx9W09S9jHW7kBwQ3SNR8QV6couQ4JUfKE7aEY4kEHw",
-    "auth": "Fjsr-xoNVtFeYf8lBZGFGA"
+
+  "gcm_user_visible_only": true,
+  "msapplication": {
+    "toastCapable": true,
+    "notification": {
+      "polling-uri": [
+        "https://port-0-test-messaging-server-ac2nll079p0k.sel4.cloudtype.app"
+      ],
+      "frequency": 30,
+      "cycle": 1
+    }
   }
 }
