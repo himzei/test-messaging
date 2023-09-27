@@ -9,5 +9,10 @@
       "type": "image/png",
       "sizes": "192x192"
     }
-  ]
+  ],
+  "endpoint": "https://fcm.googleapis.com/fcm/send/cYFa5ZScF9c:APA91bE4Y1gk7wQ3B3Lh0DUugzw2Lv1Y_xUtxUX355iFb4_W07IYy-qyP-hRnADJW6TWvsxshRW52NLHfV7N3_lp145UIEtTlWPeMJg-23qdvzUYSZ_B6Ie5XEoMrgio6rS7tk9j_02u",
+  "keys": {
+    "p256dh": "BP3oaxghkJL7bIwz51j2JM1Cm7CNutjSB8dF0ORg2f15rx9W09S9jHW7kBwQ3SNR8QV6couQ4JUfKE7aEY4kEHw",
+    "auth": "Fjsr-xoNVtFeYf8lBZGFGA"
+  }
 }
