@@ -9,6 +9,7 @@ btn.addEventListener("click", () => {
     registration.pushManager.getSubscription().then((subscription) => {
       if (subscription) {
         // save subscription on DB
+        console.log(subscription);
       } else {
         registration.pushManager
           .subscribe({
